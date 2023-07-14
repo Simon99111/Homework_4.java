@@ -1,6 +1,6 @@
 public class Test_2 {
     public static void main(String[] args) {
-        Gen printer = new Gen();
+        Gen1 printer = new Gen1();
         String[] iOb1 = {"Tom", "Alice", "Sam", "Kate", "Bob", "Helen"};
         Integer[] iOb2 = {23, 4, 5, 2, 13, 456, 4};
         printer.<String>printArray(iOb1);
